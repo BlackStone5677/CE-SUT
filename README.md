@@ -4,5 +4,5 @@ It may include, projects, educational practices, exam questions and just general
 Hope it proves useful to others as well, and helps them along their own programming and computer programming journey.
 Peace.
 
-The Repository is also connected to my telegram channel, Where I post daily stuff that I find interesting, music, and general university stuff via a Notification Bot system.
+The Repository is also connected to my telegram channel, Where I post daily stuff that I find interesting, music, and general university stuff via a Notification Bot system called @ZagheRaghbot.
 Join it if you wil, Daneshga Maneshga: https://t.me/+xEsMRQHfPoI2NjI0

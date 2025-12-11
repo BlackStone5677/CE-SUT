@@ -10,5 +10,4 @@ int main(){
         for(int j = 0; j < n; j++) printf("%d", (k >> i*n + j) & 1);
         printf("\n");
     }
-
 }

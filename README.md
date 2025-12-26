@@ -2,6 +2,7 @@ This is a collection of works during my Bachelor of Science Computer Engineering
 It may include, projects, educational practices, exam questions and just general curiosity of general programming.
 
 Hope it proves useful to others as well, and helps them along their own programming and computer programming journey.
+
 Peace.
 
 The Repository is also connected to my telegram channel, Where I post daily stuff that I find interesting, music, and general university stuff via a Notification Bot system called @ZagheRaghbot.

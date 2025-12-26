@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fa" dir = "rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>شریف آرت</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+    <h1 class="site-title">شریف <span>آرت</span></h1>
+
+    <button id="themeToggle" class="theme-toggle">🌙</button>
+</header>
+
+
+
+<main class="container">
+
+    <section class="catalog">
+        <div class="catalog-header">
+            <h2>آثار هنری</h2>
+
+            <label>
+                Sort By Price:
+                <select id="sortPrice">
+                    <option value="none">None</option>
+                    <option value="asc">Ascending</option>
+                    <option value="desc">Descending</option>
+                </select>
+            </label>
+        </div>
+
+        <div id="productList" class="products">
+        </div>
+    </section>
+
+    <!-- Shopping Cart -->
+    <aside class="cart">
+        <h2>سبد خرید</h2>
+        <ul id="cartItems"></ul>
+        <p class="total">Total: $<span id="totalPrice">0</span></p>
+    </aside>
+
+</main>
+
+<footer>
+    <p><b>© 2025 Sharif Art Gallery</b></p>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>

@@ -33,4 +33,3 @@ int main(){
     printf("%s", text);
     }
 }
-

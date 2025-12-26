@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>پردازش نمرات دانشجویان</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>سیستم پردازش نمرات دانشجویان</h2>
+
+<form action="grades_processor.php" method="post" onsubmit="return validateForm()">
+    <label>شماره دانشجویی:</label>
+    <input type="number" name="student_id" id="student_id">
+    <button type="submit">جستجو</button>
+</form>
+
+<p id="error"></p>
+
+<script src="script.js"></script>
+</body>
+</html>

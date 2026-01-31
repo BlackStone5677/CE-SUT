@@ -73,9 +73,9 @@ int main(){
     char t[MAX],cmd[20],arg[40]; int c=0;
     fgets(t,MAX,stdin); t[strcspn(t,"\n")]=0;
 
-    while(scanf("%s",cmd)&&strcmp(cmd,"###")){
-        if(!strcmp(cmd,"move")||!strcmp(cmd,"add")||!strcmp(cmd,"change"))
-            scanf("%s",arg);
+    while(scanf("%s",cmd) && strcmp(cmd,"###")){
+        if(!strcmp(cmd,"move")||!strcmp(cmd,"add")||!strcmp(cmd,"change")) scanf("%s",arg);
+        
         if(!strcmp(cmd,"rooting")) rooting(t,&c);
         else if(!strcmp(cmd,"location")) printf("%d\n",c);
         else if(!strcmp(cmd,"move")) move(t,atoi(arg),&c);
@@ -83,7 +83,7 @@ int main(){
         else if(!strcmp(cmd,"reverse")) reverse(t,&c);
         else if(!strcmp(cmd,"WOW")) wow(t);
         else if(!strcmp(cmd,"upper")) uler(t,&c,1);
-        // else if(!strcmp(cmd,"lower")) uler(t,&c,0);
+        else if(!strcmp(cmd,"lower")) uler(t,&c,0);
         else if(!strcmp(cmd,"change")) change(t,&c,atoi(arg));
     }
     puts(t);

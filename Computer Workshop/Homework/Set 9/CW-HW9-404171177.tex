@@ -1,0 +1,96 @@
+\documentclass{article}
+
+\usepackage[english]{babel}
+
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+\title{Analysis of the Stalin Sort Algorithm}
+\author{Arya Ghahremani}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This paper tries to analyse the Stalin Sort Algorithm. An algorithm developed by Joseph Stalin- General Secretary of the USSR(1925-1955), Which he used to sort through his allies with.
+\end{abstract}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.4\textwidth]{stalin.jpg}
+  \caption{The man himself}
+\end{figure}
+
+\section{Introduction}
+
+Being efficient is one of the most important features of a sorting algorithm, Perhaps the most important. \href{https://xkcd.com/3026/}{Stalin Sort} aims to maximize in efficiency while maybe not paying the most attention to others features different sorting algorithms have. It is wonderfully great for huge arrays that do not behold sensitive data, or if you have any problems with said data.
+
+\section{Algorithm Description}
+
+Stalin Sort checks the array one-by-one, when an item is out of order, it deletes it from the array. In the end the array is completely sorted.
+
+\begin{algorithm}
+\caption{Stalin Sort}
+\begin{algorithmic}[1]
+\IF{array[n] <= array[n+1]}
+    \STATE Put array[n] into a new array
+\ENDIF
+\end{algorithmic}
+\end{algorithm}
+
+\section{Time Complexity}
+
+The running time of Stalin Sort is given by the equation:
+
+$$T(n) = \sum_{i=1}^{n}{\  1}$$
+
+which resolves to:
+$$T(n) \in \mathcal{O}(n)$$
+
+\section{Comparison with Other Algorithms}
+
+Table \ref{table:sorting-comparison} compares Stalin Sort with other common sorting algorithms.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{lccc}
+\hline
+Algorithm & Best & Average & Worst \\
+\hline
+Stalin Sort & $O(n)$ & $O(n)$ & $O(n)$ \\
+Merge Sort & $O(n \log n)$ & $O(n \log n)$ & $O(n \log n)$ \\
+Quick Sort & $O(n \log n)$ & $O(n \log n)$ & $O(n^2)$ \\
+Bubble Sort & $O(n)$ & $O(n^2)$ & $O(n^2)$ \\
+\hline
+\end{tabular}
+\caption{Time complexity comparison of common sorting algorithms}
+\label{table:sorting-comparison}
+\end{table}
+
+\section{Conclusion}
+ Stalin Sort is a reliable sorting algorithm with predictable performance,
+ making it suitable for large datasets and parallel implementations.
+
+\begin{thebibliography}{9}
+
+\bibitem{knuth1998}
+Donald E. Knuth,
+\textit{The Art of Computer Programming},
+Vol. 3, Addison-Wesley, 1998.
+
+\bibitem{cormen2009}
+Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein,
+\textit{Introduction to Algorithms}, 3rd edition,
+MIT Press, 2009.
+
+\bibitem{xkcd}
+XKCD Comics, Comic 3026, \textit{Linear Sort}, XKCD, 2024
+
+\end{thebibliography}
+
+\end{document}

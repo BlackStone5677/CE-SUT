@@ -1,0 +1,4 @@
+[core]
+    remote = ce-sut_hdd
+['remote "ce-sut_hdd"']
+    url = D:/Repositories/CE-SUT

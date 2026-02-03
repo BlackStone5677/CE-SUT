@@ -1,0 +1,17 @@
+*.exe
+.gitattributes
+.gitignore
+.dvcignore
+.vscode/
+*.pdf
+*.docx
+*.wav
+*.mp3
+*.mp4
+*.xlsx
+*.png
+*.jpg
+*.jpeg
+*.zip
+*.rar
+Konkour Files/

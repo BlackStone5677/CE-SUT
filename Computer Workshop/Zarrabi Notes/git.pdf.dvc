@@ -1,0 +1,5 @@
+outs:
+- md5: 7dd3267b5bd328a8d6f212b2e4bff969
+  size: 6441459
+  hash: md5
+  path: git.pdf

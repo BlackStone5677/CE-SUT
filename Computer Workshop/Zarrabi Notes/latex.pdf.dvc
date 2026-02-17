@@ -1,0 +1,5 @@
+outs:
+- md5: 525d968a9539b2b5303de9993f7ad520
+  size: 8744447
+  hash: md5
+  path: latex.pdf
